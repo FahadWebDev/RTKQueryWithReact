@@ -23,6 +23,6 @@ pipeline {
              }
              failure{
              echo 'failure'
-                       }
+            }
       }
 }
