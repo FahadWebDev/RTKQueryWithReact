@@ -14,7 +14,7 @@ pipeline {
               steps {
                   echo 'Deploying the softwares'
           }
-      }
+      } 
     }
      post {
              success {
