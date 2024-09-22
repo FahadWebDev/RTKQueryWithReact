@@ -6,7 +6,7 @@ pipeline {
               steps {
                   echo 'building the software'
                   sh 'npm i' 
-                  sh  'npm run build'
+                  sh  'npm run build' 
               }
           }
           
