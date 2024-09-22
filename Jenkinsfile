@@ -9,6 +9,7 @@ pipeline {
                   sh  'npm run build' 
               } 
           }
+
           
           stage('deploy') {
               steps {
