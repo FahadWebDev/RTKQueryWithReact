@@ -7,7 +7,7 @@ pipeline {
                   echo 'building the software'
                   sh 'npm i' 
                   sh  'npm run build' 
-              }
+              } 
           }
           
           stage('deploy') {
